@@ -1,0 +1,102 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Gaya header */
+header {
+  background-color: #1e8577;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+  color: #2f635c;
+}
+
+/* Gaya konten */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #727070;
+}
+
+th {
+  background-color: #1e8577;
+  color: #f3efef;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td:first-child {
+  font-weight: bold;
+  color: rgb(29, 87, 88);
+}
+
+td:nth-child(3) {
+  font-size: 14px;
+  color: #000000;
+}
+
+/* Gaya footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,131 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Gaya header */
+header {
+  background-color: #1e8577;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+  color: #2f635c;
+}
+
+/* Gaya gambar */
+section img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+/* Gaya konten */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding: 20px;
+  text-align:center;
+}
+
+
+
+
+
+h1, h2 {
+  color: #333;
+}
+
+section h2 {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+th, td {
+  padding:8px;
+  text-align: left;
+  border-bottom: 3px solid #17a8a8;
+}
+
+th {
+  background-color: #1e8577;
+  color: #f3efef;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td:first-child {
+  font-weight: bold;
+  color: rgb(29, 87, 88);
+}
+
+td:nth-child(3) {
+  font-size: 14px;
+  color: #000000;
+}
+
+td:last-child img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
